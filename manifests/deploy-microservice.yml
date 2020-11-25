@@ -57,7 +57,7 @@ spec:
     rules:
         -   http:
                 paths:
-                    -   path: /mild-temper(/|$)(.*)
+                    -   path: /tony-stark(/|$)(.*)
                         backend:
                             serviceName: tony-stark-microservice-service
                             servicePort: 30201
