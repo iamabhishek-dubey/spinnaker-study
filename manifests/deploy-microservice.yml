@@ -20,7 +20,7 @@ spec:
                 source: demo
         spec:
             containers:
-                -   image: 702037529261.dkr.ecr.us-west-2.amazonaws.com/tony-stark
+                -   image: 702037529261.dkr.ecr.us-west-2.amazonaws.com/tony-stark-microservice
                     name: tony-stark-microservice
                     ports:
                         -   name: web
