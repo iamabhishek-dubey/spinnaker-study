@@ -2,7 +2,7 @@ kind: Deployment
 apiVersion: apps/v1
 metadata:
     labels:
-        app: tony-starkr-microservice
+        app: tony-stark-microservice
         stack: frontend
         source: demo
     name: tony-stark-microservice
@@ -15,7 +15,7 @@ spec:
     template:
         metadata:
             labels:
-                app: mtony-stark-microservice
+                app: tony-stark-microservice
                 run: tony-stark-microservice
                 source: demo
         spec:
